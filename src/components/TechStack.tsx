@@ -28,7 +28,7 @@ const TechStack: FC<TechStackProps> = ({}) => {
           tech={['Python','Node Js', 'Express Js']}
         />
         <TechCard
-          title="Databse"
+          title="Database"
           classaName="bg-[#e0558a]"
           tech={['MySql', 'MongoDB', 'Elastic Search']}
         />

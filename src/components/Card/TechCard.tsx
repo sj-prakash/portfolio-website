@@ -11,7 +11,7 @@ interface TechCardProps {
 
 const TechCard: FC<TechCardProps> = ({ title, classaName, tech }) => {
   return (
-    <div className="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
+    <div  id='Skills' className="flex-1 flex flex-col gap-4 bg-cardPrimary p-4 rounded-md shadow-lg">
       <div className="text-primary font-medium text-lg tracking-wider">
         {title}
       </div>

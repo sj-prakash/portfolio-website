@@ -6,7 +6,7 @@ interface SearchProps {}
 
 const SearchBar: FC<SearchProps> = ({}) => {
     return (
-        <label className="flex items-center w-96">
+        <label  className="flex items-center w-96">
             <Search size={20} />
             <Input placeholder="Search..." />
         </label>
