@@ -46,13 +46,7 @@ const Menu: FC<MenuProps> = ({}) => {
 
       {/* List 2 */}
       <div className="mt-5">Socials</div>
-      <List
-        target="_blank"
-        link="https://www.instagram.com/sj_prakash_/"
-        effect="slideUp"
-      >
-        <Instagram color="#b5179e" /> Instagram
-      </List>
+      
       <List target="_blank" link="https://github.com/sj-prakash" effect="slideUp">
         <Github color="#2a9d8f" /> Github
       </List>
@@ -78,6 +72,14 @@ const Menu: FC<MenuProps> = ({}) => {
         effect="slideUp"
       >
         <Twitter color="#0277b5" /> Twitter
+      </List>
+
+      <List
+        target="_blank"
+        link="https://www.instagram.com/sj_prakash_/"
+        effect="slideUp"
+      >
+        <Instagram color="#b5179e" /> Instagram
       </List>
 
       {/* List 3 */}

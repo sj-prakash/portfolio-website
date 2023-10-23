@@ -15,18 +15,7 @@ const Cover: FC<CoverProps> = ({}) => {
                 <div className="flex md:flex-1 flex-col justify-center gap-4">
                     <div className="flex justify-between items-center gap-5 ">
                         <ProfileName />
-                        <Link
-                            className="hidden md:block"
-                            target="_blank"
-                            href="https://instagram.com/sj_prakash_"
-                        >
-                            <Button variant="primary" sizes={'small'}>
-                                <Instagram />
-                                <span className="hidden md:block">
-                                    Follow me on Instagram
-                                </span>
-                            </Button>
-                        </Link>
+                        
                     </div>
                 </div>
             </div>
