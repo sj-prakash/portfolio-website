@@ -77,7 +77,7 @@ const Menu: FC<MenuProps> = ({}) => {
         link="https://twitter.com/sj_prakash_"
         effect="slideUp"
       >
-        <Twitter color="#0277b5" /> Twitter
+        <X color="#0277b5" /> Twitter
       </List>
 
       {/* List 3 */}
