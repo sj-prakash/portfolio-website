@@ -5,13 +5,13 @@ interface ProfilePicProps {}
 
 const ProfilePic: FC<ProfilePicProps> = ({}) => {
     return (
-        <div >
+        <div className="rounded-full overflow-hidden">
             <Image
                 alt="Jaiprakash"
                 src="/images/profilePic.jpg"
                 height={120}
                 width={120}
-                className="object-cover border-4 border-white rounded-full shadow-md"
+                className="object-cover rounded-full"
             />
         </div>
     );

@@ -64,10 +64,10 @@ export const projectCard: IProjectSectionCardData[] = [
 export const moreProjects = [
   {
     id: 1,
-    title: 'Vitejs Clone',
-    techStack: 'HTML, Tailwind CSS',
+    title: 'Mosaicify',
+    techStack: 'React Js, SpoftifyAPI',
     icon: '',
-    href: 'https://sj-prakash.github.io/vite-clone-v2/',
+    href: 'https://mosaicify.netlify.app/',
   },
   {
     id: 2,
@@ -76,8 +76,17 @@ export const moreProjects = [
     icon: '',
     href: 'https://sj-prakash.github.io/Pokedex/',
   },
+
   {
     id: 3,
+    title: 'Vitejs Clone',
+    techStack: 'HTML, Tailwind CSS',
+    icon: '',
+    href: 'https://sj-prakash.github.io/vite-clone-v2/',
+  },
+
+  {
+    id: 4,
     title: 'Cinesphere',
     techStack: 'Node js, Express, Web Sockets, Web RTC, React',
     icon: '',
@@ -85,7 +94,7 @@ export const moreProjects = [
   },
 
   {
-    id: 4,
+    id: 5,
     title: 'Eucalyptus',
     techStack: 'Python, Django, Tailwind CSS',
     icon: 'gamepad-2',
